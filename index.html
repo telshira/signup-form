@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Doggie Daycare Sign-Up Page</title>
+</head>
+<body>
+  <header>
+    <div class="main-logo"><img src="images/main_logo.svg" alt="peeping dog"></div>
+    <div>
+      <ul class="main-links">
+        <a href=""> <li>About</li></a>
+        <a href=""> <li>Services</li> </a>
+        <a href=""> <li>Photos</li> </a>
+      </ul>
+    </div>
+  </header>
+  <div class="main_container">
+    <div class="photo-container">
+      <img src="images/doggy-daycare.png" alt="dog daycare">
+    </div>
+    <div class="form-container">
+      <form action="post">
+        <h2>New Client Sign Up</h2>
+        <a href="">Already signed up? Log in here.</a>
+        <div class="form-group">
+          <label for="first-name">First name</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Joe" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last name</label>
+          <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Smith" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number</label>
+          <input type="tel" name="phone" id="phone" class="form-control" placeholder="888.888.8888" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" class="form-control original-password">
+        </div>
+        <div class="form-group">
+          <label for="password">Please confirm password</label>
+          <input type="password" name="password" id="password" class="form-control confirmation-password">
+        </div>
+        <div class="form-group">
+          <input type="checkbox" name="newsletter" id="newsletter">
+          <label for="newsletter">If you would like to sign up for our weekly newsletter, please check here.</label>
+        </div>
+        <div class="form-group">
+          <button type="submit">Create Account</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; by Thu Nguyen. Nov 2024</p>
+  </footer>
+</body>
+</html>
